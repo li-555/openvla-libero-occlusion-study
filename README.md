@@ -1,5 +1,49 @@
 # OpenVLA–LIBERO Occlusion Study
 
+<!-- BEGIN AUTO VISUAL SHOWCASE -->
+## Visual Overview
+
+<p align="center">
+  <img src="media/occlusion_clean_grasp_preview.png" width="850" alt="OpenVLA LIBERO project overview"/>
+</p>
+
+## Experimental Visualizations
+
+**First-close comparison: Clean, Occluded and Last-seen**
+
+<p align="center">
+  <img src="media/last_seen_ep5_first_close_triptych.png" width="800" alt="First-close comparison: Clean, Occluded and Last-seen"/>
+</p>
+
+**Pre-grasp occlusion audit, Episode 5**
+
+<p align="center">
+  <img src="media/pregrasp_ep5_audit_36_51.png" width="800" alt="Pre-grasp occlusion audit, Episode 5"/>
+</p>
+
+**RGB observations and contact analysis, Episode 1**
+
+<p align="center">
+  <img src="media/episode1_clean_rgb_contact_sheet.png" width="800" alt="RGB observations and contact analysis, Episode 1"/>
+</p>
+
+## Research Demonstrations
+
+> Individual recorded runs for qualitative inspection; these videos should not be interpreted as a matched statistical comparison.
+
+- [Episode 5 - Occluded run](media/ep5_occluded_success.mp4)
+- [Episode 5 - Learned Contact run](media/ep5_learned_contact_success.mp4)
+- [Episode 5 - Learned Contact failure analysis](media/ep5_learned_contact_failure.mp4)
+
+## Experimental Records
+
+- [Closed-loop comparison](results/comparison.csv)
+- [Research status and evidence](results/STATUS.md)
+
+<!-- END AUTO VISUAL SHOWCASE -->
+
+
+
 This repository contains a curated, reproducibility-oriented research snapshot of
 an OpenVLA–LIBERO occlusion study. It is intended for discussion with robotics and
 machine learning researchers, including prospective PhD advisors.
