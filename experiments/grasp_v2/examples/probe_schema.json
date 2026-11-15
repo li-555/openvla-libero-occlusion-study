@@ -1,0 +1,55 @@
+{
+  "schema": "grasp_probe_outcome_v1",
+  "event_timing": "post_probe_outcome",
+  "label_source": "executed_grasp_and_lift",
+  "split": "development",
+  "initial_state_id": "REPLACE_WITH_ACTUAL_INITIAL_STATE_ID",
+  "checkpoint_id": "REPLACE_WITH_RESTORED_SNAPSHOT_ID",
+  "episode_id": "REPLACE_WITH_ACTUAL_EPISODE_ID",
+  "seed": 7,
+  "pre_action": {
+    "target_px": [
+      43.5,
+      123.5
+    ],
+    "eef_px": [
+      66.2,
+      127.0
+    ],
+    "eef_xyz_m": [
+      0.0,
+      0.0,
+      0.2
+    ],
+    "eef_vel_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gripper_aperture_m": 0.07,
+    "last_seen_age": 2,
+    "target_confidence": 1.0,
+    "previous_action_xyz": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "proposed_action_xyz": [
+      0.2,
+      0.1,
+      0.0
+    ]
+  },
+  "candidate": {
+    "xyz_action": [
+      0.2,
+      0.1,
+      0.0
+    ],
+    "close_now": true
+  },
+  "post_action_label": {
+    "stable_grasp_after_lift": 0
+  },
+  "candidate_protocol": "one_step_move_then_forced_next_close_v1"
+}

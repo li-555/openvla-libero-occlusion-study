@@ -1,0 +1,17 @@
+{
+  "history": 5,
+  "max_gap_steps": 1,
+  "proximity_m": 0.12,
+  "rel_translation_m": 0.008,
+  "rel_rotation_rad": 0.12,
+  "min_motion_m": 0.015,
+  "min_motion_rad": 0.15,
+  "static_translation_m": 0.003,
+  "static_rotation_rad": 0.05,
+  "grip_weights": [1.0, -1.0],
+  "grip_closed": 0.0,
+  "grip_open": 0.08,
+  "closed_fraction_max": 0.35,
+  "open_fraction_min": 0.8,
+  "grip_valid_margin": 0.1
+}

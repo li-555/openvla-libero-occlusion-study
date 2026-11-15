@@ -1,0 +1,10 @@
+{
+  "0": {
+    "target_object": "akita_black_bowl_1",
+    "start_step": 35,
+    "end_step": 85,
+    "mask": [0.32, 0.32, 0.70, 0.70],
+    "rgb_roi": null,
+    "object_center_height": null
+  }
+}

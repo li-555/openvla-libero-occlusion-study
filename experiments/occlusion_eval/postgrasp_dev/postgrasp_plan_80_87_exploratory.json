@@ -1,0 +1,30 @@
+{
+  "schema": "local_occlusion_plan_v1",
+  "anchor_step": 35,
+  "start_step": 80,
+  "end_step": 87,
+  "task_id": 0,
+  "episode_id": 0,
+  "phase": "postgrasp_early_transport_exploratory",
+  "roi": [
+    0.1875,
+    0.53125,
+    0.3169642857142857,
+    0.6294642857142857
+  ],
+  "fill": [
+    128,
+    128,
+    128
+  ],
+  "image_shape": [
+    224,
+    224,
+    3
+  ],
+  "anchor_rgb_sha256": "3c9591c2945f02c9801b07e87bf33e944ca54495056695666f3bf0d5606caedf",
+  "anchor_source": "<source-repository>/experiments/occlusion_eval/results/eval_20261107T183956918172Z/images/task0_ep0_clean/0035_raw.png",
+  "initialization": "visually_chosen_from_clean_postgrasp_video_not_sim_truth",
+  "quality_status": "COARSE_VISUAL_ONLY_UNVERIFIED_FINGER_AND_TARGET_PIXEL_COVERAGE",
+  "note": "Development-only fixed 8-step ROI from visible clean video, with partial gripper overlap risk. Anchor step 35 hash inherited from earlier same-initial-state clean plan; does not claim a lossless step79 hash. No online simulator truth used."
+}

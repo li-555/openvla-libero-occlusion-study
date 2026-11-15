@@ -1,0 +1,36 @@
+{
+  "schema": "local_occlusion_plan_v1",
+  "anchor_step": 35,
+  "start_step": 50,
+  "end_step": 65,
+  "task_id": 0,
+  "episode_id": 0,
+  "phase": "grasp_pre",
+  "roi": [
+    0.16517857142857142,
+    0.5267857142857143,
+    0.3169642857142857,
+    0.6607142857142857
+  ],
+  "fill": [
+    128,
+    128,
+    128
+  ],
+  "image_shape": [
+    224,
+    224,
+    3
+  ],
+  "anchor_rgb_sha256": "3c9591c2945f02c9801b07e87bf33e944ca54495056695666f3bf0d5606caedf",
+  "target_bbox_px": [
+    39,
+    120,
+    69,
+    146
+  ],
+  "anchor_source": "<source-repository>/experiments/occlusion_eval/results/eval_20261107T183956918172Z/images/task0_ep0_clean/0035_raw.png",
+  "initialization": "human_visible_bbox",
+  "quality_status": "UNVERIFIED",
+  "note": "Geometry preview only; no claim of coverage or deployment perception"
+}

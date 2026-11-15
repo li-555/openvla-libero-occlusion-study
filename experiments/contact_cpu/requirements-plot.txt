@@ -1,0 +1,2 @@
+# Optional ONLY for plots; contact_gate/evaluate depend only on NumPy.
+matplotlib>=3.6

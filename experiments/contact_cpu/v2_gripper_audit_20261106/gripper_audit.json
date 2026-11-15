@@ -1,0 +1,23 @@
+{
+  "path": "<source-repository>/experiments/logs/EVAL-libero_spatial-openvla-2026_11_06-00_52_46--physics_trace_01_ep0_states.npz",
+  "n_rows": 79,
+  "step_range": [
+    10,
+    88
+  ],
+  "joint_min": [
+    0.001830682831940519,
+    -0.03975639344224067
+  ],
+  "joint_max": [
+    0.0398397354358527,
+    -0.0017425259641154233
+  ],
+  "aperture_definition": "qpos[0] - qpos[1]",
+  "aperture_min": 0.003573208796055942,
+  "aperture_max": 0.07959612887809336,
+  "joint_sum_max_abs": 0.00011756905763378542,
+  "observed_joint_relation": "approximately opposite-sign and equal-magnitude",
+  "calibration_status": "not_calibrated",
+  "warning": "Observed extrema are not independent fully-open/fully-closed calibration endpoints and do not establish contact."
+}
